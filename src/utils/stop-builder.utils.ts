@@ -59,7 +59,6 @@ const convertStop = (stopEvent: any): Stop => {
     bay: callAtStop?.['trias:PlannedBay']?.['trias:Text']?._text
       ? callAtStop?.['trias:PlannedBay']?.['trias:Text']?._text
       : undefined,
-    //TODO: bay does not always exist -> fix that eventuality
 
     arrival: {
       timetableTime:

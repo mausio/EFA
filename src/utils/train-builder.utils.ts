@@ -32,7 +32,7 @@ export const convertStopEvents = (stopEventData: any) => {
 
     const train: StopEvent = {
       ptMode: ptMode,
-      railSubmode: service['trias:RailSubmode']?._text, //TODO: Check if this is correct (https://opentransportdata.swiss/de/cookbook/abfahrts-ankunftsanzeiger/)
+      railSubmode: service['trias:RailSubmode']?._text,
       responseTimestamp: responseTimeStamp,
       operatingDayRef: service['trias:OperatingDayRef']?._text,
       resultID: stopEventResult['trias:ResultId']?._text,
