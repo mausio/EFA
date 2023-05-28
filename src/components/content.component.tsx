@@ -36,7 +36,7 @@ const ContentComponent = () => {
           const time = etaStart ? (etaStart === ttpStart ? ttpStart : etaStart) : ttpStart
           const line = stopEvent.publishedLineName
           const origin = stopEvent.origin
-          const via = stopEvent.stops?.filter((value, idx) => idx < 2).map((stop) => stop.stopPointName).join(' - ')
+          const via = stopEvent.stops?.filter((value, idx) => idx < 3 && idx > 0).map((stop) => stop.stopPointName).join(' - ')
           const destination = stopEvent.destination
           const bay = stopEvent.stops && stopEvent.stops[0].bay
 

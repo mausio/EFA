@@ -2,7 +2,7 @@ import styled from 'styled-components'
 
 export const ContentDescription = styled.div`
   display: grid;
-  grid-template-columns: 0.22fr 0.3fr 1fr 2fr 1fr 0.4fr;
+  grid-template-columns: 0.2fr 0.47fr 0.95fr 2fr 1fr 0.22fr;
 
   margin: 0 0 5px 0;
   align-self: end;
@@ -30,7 +30,7 @@ export const ContentContainer = styled.div`
 
 export const ContentItem = styled.div`
   display: grid;
-  grid-template-columns: 0.22fr 0.3fr 1fr 2fr 1fr 0.3fr;
+  grid-template-columns: 0.16fr 0.5fr 0.95fr 2fr 1fr 0.15fr;
   grid-template-rows: 1fr;
 
   justify-content: start;
